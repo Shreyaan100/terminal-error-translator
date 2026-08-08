@@ -1,37 +1,45 @@
 # terminal-error-translator
 An AI-powered developer productivity tool that takes complex, intimidating terminal error logs, translates the dense technical jargon into clear plain-English summaries, and provides actionable, step-by-step solutions alongside one-click copy-paste fix commands.
 <br>
-# ⚡ Terminal Error Translator
+# ⚡ Terminal Error Translator Web App
 
-> Transform terrifying, wall-of-text terminal errors into plain English with step-by-step solutions and instant 1-click fixes.
+> An interactive web dashboard that transforms complex, intimidating terminal error logs into plain English explanations, actionable fix steps, and instant 1-click copyable CLI commands.
 
 ---
 
 ## 📌 Overview
 
-Debugging shouldn't feel like deciphering ancient hieroglyphics. **Terminal Error Translator** is an AI-powered developer productivity tool built to eliminate the frustration of mysterious stack traces. It automatically parses raw terminal output, strips away unnecessary noise, explains *why* your code broke in everyday language, and provides the exact terminal commands needed to fix it.
+Debugging shouldn't feel like deciphering ancient hieroglyphics. **Terminal Error Translator** is an AI-powered developer productivity tool built to eliminate the frustration of mysterious stack traces. 
+
+Users can paste raw terminal errors directly into the clean web interface. The app parses the log, isolates the core exception, explains *why* the code broke in everyday language, and provides ready-to-use fix commands.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
 * **🗣️ Plain English Summaries:** Translates dense, intimidating error logs into clear, jargon-free explanations.
-* **🛠️ Step-by-Step Fixes:** Gives structured instructions on how to resolve the root cause.
-* **📋 One-Click Fix Commands:** Automatically generates copy-paste terminal commands for quick dependencies, permissions, or syntax resolutions.
-* **🧠 Auto-Environment Detection:** Automatically identifies whether the error comes from Python, Node.js, Docker, C++, Git, or system permissions.
-* **🎓 Beginner vs. Pro Modes:** Toggle between friendly, high-level analogies for beginners or technical breakdowns for senior devs.
+* **🛠️ Step-by-Step Fixes:** Displays structured instructions on how to resolve the root cause.
+* **📋 1-Click Fix Commands:** Automatically generates copy-paste terminal commands for fast dependency, permission, or syntax resolutions.
+* **🧠 Auto-Environment Detection:** Automatically detects whether the error comes from Python, Node.js, Docker, C++, Git, or system permissions.
+* **⚡ One-Tap Demo Samples:** Includes pre-loaded sample errors (Python, Node, Docker) to test the app instantly without manual typing.
+
+---
+
+## 🏗️ Architecture & Tech Stack
+
+* **Frontend:** HTML5, Tailwind CSS, JavaScript (React / Next.js)
+* **Backend:** Node.js (Express) / Python (FastAPI / Flask)
+* **AI Engine:** Google Gemini API
 
 ---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-* [Node.js](https://nodejs.org/) or [Python 3.10+](https://www.python.org/)
-* An active **API Key** (e.g., Gemini API or OpenAI API)
+* Node.js (v18+) or Python (3.10+) installed
+* A free **Gemini API Key**
 
-### Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/terminal-error-translator.git](https://github.com/your-username/terminal-error-translator.git)
-   cd terminal-error-translator
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/terminal-error-translator-web.git](https://github.com/your-username/terminal-error-translator-web.git)
+cd terminal-error-translator-web
