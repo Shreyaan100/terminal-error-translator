@@ -3,7 +3,7 @@ import cors from 'cors';
 
 const PORT = process.env.PORT || 3000;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-flash-lite-latest';
 const ACCESS_TOKEN = process.env.TERR_ACCESS_TOKEN || null;
 
 const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000;
